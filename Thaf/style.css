@@ -1,0 +1,43 @@
+
+body {
+    font-family: sans-serif;
+    direction: rtl;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+}
+h1, h2 {
+    text-align: center;
+}
+.current-week img, .card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.archive {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+}
+.archive-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.archive-link a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
