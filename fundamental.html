@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بخش فاندامنتال</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 4px solid #005bb5;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #003366;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            height: auto;
+            object-fit: cover;
+        }
+        .card h3 {
+            color: #003366;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        .card p {
+            font-size: 16px;
+            color: #666;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .card a:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>بخش فاندامنتال - اخبار و تحلیل‌ها</h1>
+    </header>
+
+    <section>
+        <h2>اخبار اقتصادی مهم</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 18px; color: #333;">
+            در این بخش، مهم‌ترین اخبار اقتصادی و اطلاعات فاندامنتال که بر بازارهای مالی تأثیر می‌گذارند، ارائه می‌شود. این اطلاعات به شما کمک می‌کند تا تصمیمات آگاهانه‌تری در تجارت خود بگیرید.
+        </p>
+
+        <div class="content">
+            <!-- کارت اخبار فارکس فکتوری -->
+            <div class="card">
+                <img src="https://academywave.com/wp-content/uploads/2020/01/Ten-Interesting-Facts-About-Forex-Market.jpg" alt="اخبار فارکس">
+                <h3>اخبار فارکس</h3>
+                <p>آخرین اخبار و تحلیل‌های اقتصادی از سایت فارکس فکتوری.</p>
+                <a href="https://www.forexfactory.com/calendar" target="_blank">مشاهده اخبار فارکس فکتوری</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
